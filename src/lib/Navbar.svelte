@@ -1,5 +1,6 @@
 <script>
-    import HamburgerMenu from "./HamburgerMenu.svelte";
+    import GithubStars from "./GithubStars.svelte";
+import HamburgerMenu from "./HamburgerMenu.svelte";
     import NavItem from "./NavItem.svelte";
 
     let opened = false;
@@ -25,9 +26,10 @@
             <HamburgerMenu {opened} on:click={navClicked} />
         </span>
         <nav class="hidden md:block">
-            <ul class="flex flex-row">
+            <ul class="flex flex-row space-x-8">
                 <NavItem href="about">About</NavItem>
                 <NavItem href="community">Community</NavItem>
+                <GithubStars>7.2k</GithubStars>
             </ul>
         </nav>
     </div>

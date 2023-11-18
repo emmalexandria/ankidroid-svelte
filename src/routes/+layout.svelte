@@ -5,12 +5,12 @@
     import Navbar from "$lib/Navbar.svelte";
 
 </script>
-<header class="bg-surface">
+<header class="bg-background">
     <Navbar/>
 </header>
-<main class="bg-surface">
+<main class="bg-background">
     <slot/>
 </main>
-<footer class="bg-surface">
+<footer class="bg-background">
 
 </footer>

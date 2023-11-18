@@ -2,6 +2,7 @@
     import ButtonFilled from "$lib/ButtonFilled.svelte";
     import ButtonOutlined from "$lib/ButtonOutlined.svelte";
 import Downloads from "$lib/Downloads.svelte";
+    import FeatureGrid from "$lib/FeatureGrid.svelte";
 import StarRating from "$lib/StarRating.svelte";
 
 </script>
@@ -19,7 +20,7 @@ import StarRating from "$lib/StarRating.svelte";
     </span>
   
     <p class="text-center mb-4 md:w-1/4 mx-auto">AnkiDroid uses Anki, a proven spaced repetition system, to let you learn anything with minimal effort.</p>
-    <span class="block w-fit mx-auto space-x-2">
+    <span class="block w-fit mx-auto space-x-2 mb-8">
         <ButtonFilled href="https://play.google.com/store/apps/details?id=com.ichi2.anki&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
             Get the app
         </ButtonFilled>
@@ -27,5 +28,10 @@ import StarRating from "$lib/StarRating.svelte";
             Read the docs
         </ButtonOutlined>
     </span>
+    <div class="md:w-1/4 md:mx-auto">
+        <h2 class="text-4xl text-center mb-4">Why AnkiDroid?</h2>
+        <FeatureGrid/>
+    </div>
+    
     
 </div>
