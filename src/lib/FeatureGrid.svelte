@@ -13,7 +13,7 @@
             AnkiDroid is free and open source. Forever.
         </p>
 
-            <a class="text-xs" href="/community">Learn how to contribute</a>        
+            <a class="text-xs" href="community">Learn how to contribute</a>        
         
     </FeatureGridItem>
     <FeatureGridItem title="Extensible">
