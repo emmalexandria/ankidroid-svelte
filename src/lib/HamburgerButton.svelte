@@ -6,8 +6,8 @@
 
 <div class="text-3xl">
 {#if !opened}
-    <button on:click><Icon icon="mdi:menu"/></button>
+    <button on:click name="Open navigation"><Icon icon="mdi:menu"/></button>
 {:else}
-    <button on:click><Icon icon="mdi:close"/></button>
+    <button on:click name="Close navigation"><Icon icon="mdi:close"/></button>
 {/if}
 </div>

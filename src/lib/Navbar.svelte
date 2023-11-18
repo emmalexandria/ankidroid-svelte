@@ -1,6 +1,6 @@
 <script>
     import GithubStars from "./GithubStars.svelte";
-import HamburgerMenu from "./HamburgerMenu.svelte";
+import HamburgerMenu from "./HamburgerButton.svelte";
     import NavItem from "./NavItem.svelte";
 
     let opened = false;
