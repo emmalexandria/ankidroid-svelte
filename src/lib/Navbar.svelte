@@ -1,6 +1,6 @@
 <script>
     import GithubStars from "./GithubStars.svelte";
-import HamburgerMenu from "./HamburgerButton.svelte";
+    import HamburgerMenu from "./HamburgerButton.svelte";
     import NavItem from "./NavItem.svelte";
 
     let opened = false;
@@ -13,13 +13,16 @@ import HamburgerMenu from "./HamburgerButton.svelte";
 <div class="relative font-roboto">
     <div class="flex flex-row relative items-center">
         <span class="flex flex-row items-center grow">
-            <img
-                class="h-12 w-auto"
-                src="ankidroid_logo.png"
-                alt="AnkiDroid Logo"
-                height="512"
-                width="512"
-            />
+            <a href="/">
+                <img
+                    class="h-12 w-auto"
+                    src="ankidroid_logo.png"
+                    alt="AnkiDroid Logo"
+                    height="512"
+                    width="512"
+                />
+            </a>
+
             <h1 class="text-4xl font-bold hidden md:inline-block">Ankidroid</h1>
         </span>
         <span class="block md:hidden">
@@ -35,10 +38,10 @@ import HamburgerMenu from "./HamburgerButton.svelte";
     </div>
 
     {#if opened}
-        <nav class="absolute md:hidden">
-            <ul>
-                <li>Community</li>
-                <li>About</li>
+        <nav class="md:hidden bg-surface w-full">
+            <ul class="my-4 space-y-4">
+                <NavItem href="about">About</NavItem>
+                <NavItem href="community">Community</NavItem>
             </ul>
         </nav>
     {/if}
