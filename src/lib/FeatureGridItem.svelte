@@ -2,7 +2,7 @@
     export let title: string;
 </script>
 
-<div class="border border-outline/25 rounded-md bg-surface px-4 py-2">
+<div class="border border-outline rounded-md bg-surface px-4 py-2">
     <h1 class="text-3xl font-semibold">{title}</h1>
     <slot/>
 </div>

@@ -10,7 +10,7 @@ import HamburgerMenu from "./HamburgerButton.svelte";
     };
 </script>
 
-<div class="relative font-roboto p-4 md:p-8">
+<div class="relative font-roboto">
     <div class="flex flex-row relative items-center">
         <span class="flex flex-row items-center grow">
             <img

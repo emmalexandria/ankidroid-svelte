@@ -2,7 +2,7 @@
     import FeatureGridItem from "./FeatureGridItem.svelte";
 
 </script>
-<div class="grid grid-cols-2 grid-rows-2 gap-2">
+<div class="grid grid-cols-2 grid-rows-2 gap-4">
     <FeatureGridItem title="Fast">
         <p>
             Spaced repetition gives you the ability to memorise hundreds of cards with tens of daily reviews.
